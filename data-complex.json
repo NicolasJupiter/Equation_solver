@@ -1,0 +1,19 @@
+{
+ "op": "equal",
+"lhs":{
+ "lhs": {
+  "op": "divide",
+  "lhs": {
+"lhs":{ "lhs":{"lhs":"x","op":"add","rhs":3}, "op":"subtract", "rhs": 3}, "op":"multiply","rhs":12
+},
+
+   "rhs": {
+  "lhs":3, "op":"multiply", "rhs":{"lhs":4,"op":"add","rhs":2}
+   }
+  },
+"op":"subtract"
+,"rhs": {"lhs":{"lhs":4,"op":"divide","rhs":2},"op":"add","rhs":10}
+}
+, "rhs": 12
+
+}
